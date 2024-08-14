@@ -1,0 +1,78 @@
+/*Inicializar o body*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.divCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.divCalculator>h1 {
+  margin-left: 2rem;
+}
+
+.fieldsCalc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fieldsCalc>div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 20px
+}
+
+.fieldsCalc>div>label {
+  padding: 6px;
+}
+
+.fieldsCalc>div>input {
+  margin: 5px;
+}
+
+.fieldsCalc>div>input[type="date"] {
+  padding: 6px;
+  width: 100%;
+}
+
+.fieldsCalc>div>input[type="number"] {
+  padding: 6px;
+  width: 100%;
+}
+
+.fieldsCalc>div>input[type="text"] {
+  padding: 6px;
+  width: 100%;
+}
+
+.fieldsCalc>.divButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 32px 0;
+  width: 50%;
+}
+
+.fieldsCalc>.divButton>button {
+  width: 100px;
+  background-color: #0064af;
+  color: #e3f0fb;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  cursor: pointer;
+}
